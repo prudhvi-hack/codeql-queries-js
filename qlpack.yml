@@ -1,0 +1,15 @@
+name: customqueries
+version: 1.2.1-dev
+groups:
+  - javascript
+  - queries
+suites: codeql-suites
+extractor: javascript
+defaultSuiteFile: codeql-suites/javascript-code-scanning.qls
+dependencies:
+  codeql/javascript-all: 1.2.1-dev
+  codeql/util: 1.2.1-dev
+  codeql/suite-helpers: 1.2.1-dev
+  codeql/typos: 1.2.1-dev
+
+warnOnImplicitThis: true
